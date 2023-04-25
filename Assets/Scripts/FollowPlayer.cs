@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    public float moveSpeed = 5f; 
-    public float followRadius = 5f; 
+    public float moveSpeed = 0.25f; 
+    public float followRadius = 0.25f; 
     private Transform player;
     private Rigidbody2D rb; 
 

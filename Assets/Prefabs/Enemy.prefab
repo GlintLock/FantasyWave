@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3781363414907398229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.16, y: 0.16, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -120,8 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 446850a63f0c8ad49ba9553f9d2d0fde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  followRadius: 10
+  moveSpeed: 0.3125
+  followRadius: 0.65
 --- !u!61 &-8484161570634341825
 BoxCollider2D:
   m_ObjectHideFlags: 0
