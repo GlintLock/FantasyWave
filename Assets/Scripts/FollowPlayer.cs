@@ -8,7 +8,7 @@ public class FollowPlayer : MonoBehaviour
     public float followRadius = 0.25f; 
     private Transform player;
     private Rigidbody2D rb; 
-
+   
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform; 
@@ -30,5 +30,5 @@ public class FollowPlayer : MonoBehaviour
         {            
             rb.velocity = Vector2.zero;
         }
-    }
+    } 
 }
