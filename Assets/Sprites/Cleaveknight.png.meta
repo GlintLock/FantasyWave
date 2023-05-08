@@ -101,18 +101,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -121,7 +109,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
+        y: 352
         width: 32
         height: 32
       alignment: 0
@@ -131,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4f72ad751832a248b64bff8b31da434
-      internalID: 1481866453
+      spriteID: 9ba6fedb8ed0411469e18890e7b77d97
+      internalID: 711234637
       vertices: []
       indices: 
       edges: []
@@ -142,7 +130,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 256
+        y: 352
         width: 32
         height: 32
       alignment: 0
@@ -152,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c824ff70814e64140b38c8506005b019
-      internalID: -1742584142
+      spriteID: f82ff6724f6315243b18920b1c07d9a0
+      internalID: 1851582297
       vertices: []
       indices: 
       edges: []
@@ -163,7 +151,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 256
+        y: 352
         width: 32
         height: 32
       alignment: 0
@@ -173,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 996f586a2164a084da8cc619218689b6
-      internalID: 1118351260
+      spriteID: 434b3e15575adc94d912d11faa7bc205
+      internalID: 1090367786
       vertices: []
       indices: 
       edges: []
@@ -184,6 +172,195 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f7b6becfa7302478f2364b7141821a
+      internalID: -1142472286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223513666153b274d9a31e71fe0420f8
+      internalID: 1627444674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c699fbbbd1d394fab862a84f320d3d
+      internalID: 1547258257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414e8f7b160a27248885158e67a64240
+      internalID: 744809699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475867adbd5bcee4aae0b658f1b546af
+      internalID: -391930406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4898d4c92e170ad49b1b99cd23f3ec51
+      internalID: -2083396343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be4b9a5e82754a46aee2169f363691a
+      internalID: -1739320062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e506b6855664944cb38f16f13ce6c82
+      internalID: 1975277976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195287cfcfe83714da73cbe532409c6d
+      internalID: -194685021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_12
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 256
         width: 32
         height: 32
@@ -194,197 +371,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad45698d32e95c6448e900d222688e82
-      internalID: 495846023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb899844fbb2ccd4a8405361dde6c70b
-      internalID: -281960610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b382068e2989a31419714121ff346594
-      internalID: 205736391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_6
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3763e28a32e556a4b9020baff4c6e0e6
-      internalID: -210684484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_7
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 342db9a63d61b9e4586e7671a071eeb1
-      internalID: 1735527207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62719a906bc84a84fab636242f262f57
-      internalID: 1218668953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4629c149bb6dd8499d6829b9997f82b
-      internalID: -2055379092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_10
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d75c92528f213a45b4721db37b3acda
-      internalID: -1219773078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_11
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ab7c1ea3411c7641b729f78b7ab00cd
-      internalID: -2113333888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_12
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f73643bcd2c78444197fde49f873e1ec
-      internalID: -1133074716
+      spriteID: 54302d1fcf23cf94fa55f5ca030ef187
+      internalID: -664029618
       vertices: []
       indices: 
       edges: []
@@ -393,8 +381,8 @@ TextureImporter:
       name: Cleaveknight_13
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
+        x: 32
+        y: 256
         width: 32
         height: 32
       alignment: 0
@@ -404,8 +392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f110d9c35bf4efd4e99975e2d9354808
-      internalID: -1098756691
+      spriteID: 8af4cb25ad7475341840771aca1947f0
+      internalID: 1571887491
       vertices: []
       indices: 
       edges: []
@@ -414,6 +402,258 @@ TextureImporter:
       name: Cleaveknight_14
       rect:
         serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388ac0b5131b95242bdbe0fe69b96e98
+      internalID: 1328196650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7a12f6146fb6c4d97bf5460d0342dc
+      internalID: 1742939397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1eb5c889a5429140ae76bf941929a65
+      internalID: -717149383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c16ccec448ccb4c88fa813da38625c
+      internalID: 308707939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ee95ba56f647c4eb809cd4612bbc59
+      internalID: 1927484991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d902ef30fff92346af656582a06c660
+      internalID: -1409144108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a75d2254063724ba5abc7378b8e7f9
+      internalID: 656213480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdd6b8fccfcdad4492deca041c3ca7d
+      internalID: -1520084974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f9c31eb736f784ab226b9db71ae3c2
+      internalID: 882745463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48763d305d6d36740b8070eb1afe6fcb
+      internalID: -691324392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef93a48b95029e418b05bcde931ab88
+      internalID: 1083952575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96f77183c5c55c44acb05330c22e243
+      internalID: 445544808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_26
+      rect:
+        serializedVersion: 2
         x: 160
         y: 192
         width: 32
@@ -425,260 +665,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db884432465de5d41b87afa4058a86f8
-      internalID: 1128154648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c57e3c5a5f18b4f47912772487b96f01
-      internalID: -827997678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_16
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6d6cde965b93c8408a4c90ee735a92b
-      internalID: -1528432470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_17
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf13f56bcff1d20449b8559bafd6bc8d
-      internalID: 463919405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_18
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01b1cca3871cffb49aa66b635608a29e
-      internalID: 2052995912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_19
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51fdde2e13257f846aaa2370511396e3
-      internalID: -191618085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_20
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d50e2f6e79c258543b75f76c554ed3a7
-      internalID: -1306667276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_21
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4db28a153ea29f48b0ce52520741588
-      internalID: 1512203147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_22
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1872a1bbdd3c3442b507addd8103a93
-      internalID: 1979853151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_23
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd31d35372f228648aba8c40e9d51c46
-      internalID: 891262914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_24
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42a8f846c8bbb144f9c30f346a5d6e80
-      internalID: 1012218269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_25
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bdd9d2685cdb8f439272c3893be4ab4
-      internalID: 1175265244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cleaveknight_26
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52efdd0a7c45113419dfb7c716b7d269
-      internalID: 1787604754
+      spriteID: 1f5c0bde04ca7734e82fb3c7a7f19a0e
+      internalID: 2124614161
       vertices: []
       indices: 
       edges: []
@@ -687,8 +675,8 @@ TextureImporter:
       name: Cleaveknight_27
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 0
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -698,8 +686,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: facfc9b9ddb620f46b55faf7f2e264b3
-      internalID: 42062335
+      spriteID: de5bfbbaf9e03184b8818012eae48d52
+      internalID: -896628289
       vertices: []
       indices: 
       edges: []
@@ -708,8 +696,8 @@ TextureImporter:
       name: Cleaveknight_28
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
+        x: 32
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -719,8 +707,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5e3cd9cf3a558148874dedf29f7b628
-      internalID: 501028193
+      spriteID: 011c94e5f7eb488428b0076761c53133
+      internalID: 866804219
       vertices: []
       indices: 
       edges: []
@@ -729,8 +717,8 @@ TextureImporter:
       name: Cleaveknight_29
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
+        x: 64
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -740,8 +728,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fac0b067e8373c44ebac749a8d1f6047
-      internalID: -2043121773
+      spriteID: 61435151e47123a43ae96ed342972ef6
+      internalID: 174492083
       vertices: []
       indices: 
       edges: []
@@ -750,8 +738,8 @@ TextureImporter:
       name: Cleaveknight_30
       rect:
         serializedVersion: 2
-        x: 160
-        y: 96
+        x: 96
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -761,8 +749,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f19af1132e799054b822f579668ee555
-      internalID: 592970968
+      spriteID: 7d952f007d9f0544c9ecfbe402e97b2a
+      internalID: -1579050256
       vertices: []
       indices: 
       edges: []
@@ -771,8 +759,8 @@ TextureImporter:
       name: Cleaveknight_31
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
+        x: 128
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -782,8 +770,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 912dd42ea80a1ab4aae136bc6a92559d
-      internalID: -185611725
+      spriteID: d6cb2965ba01a844c98f3c5bbe5c00b9
+      internalID: 1279824005
       vertices: []
       indices: 
       edges: []
@@ -793,6 +781,258 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c113bf82a07b00547b7f90fa39a53d6f
+      internalID: -1222270506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736fc7b8dba1f864ba2e46ec4b90e6a7
+      internalID: -2056989723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0b4d6c1ccd797489b09c66ec3ed886
+      internalID: -1263340124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cca10a71f53dd42819323c8db5a8a9
+      internalID: 941947990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b478e0cc77b47a4c828406f3d1874a4
+      internalID: -918574665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd0c162b26274b4a94bfaac0d583b00
+      internalID: 1776616215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dec5c41b3e11804396d70b757d24a48
+      internalID: -1540196554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe69eab6d18eaa14ca196ea0b3e1892e
+      internalID: 1704062137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e211be1ddd95194f87935d247472d1d
+      internalID: 2143015824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe95a59a1a4af14ca7d02a5d26fe0ae
+      internalID: 256650436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2e44f108cf4ff45b5b74e36ae9646d
+      internalID: 1738744529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76c459f7fae4da48939c05136be8ddd
+      internalID: -852677869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cleaveknight_44
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 64
         width: 32
         height: 32
@@ -803,14 +1043,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95abc4a870ae0f446b754250d70d4693
-      internalID: -135341887
+      spriteID: 6e848cc9202700445b5a5023f500a013
+      internalID: 1491885738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_33
+      name: Cleaveknight_45
       rect:
         serializedVersion: 2
         x: 32
@@ -824,14 +1064,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e97ad9c44926cda46ad9ec5c0ea9bad0
-      internalID: -125451332
+      spriteID: a426e2fda35706143aa4fc2f7c2e4673
+      internalID: -493847368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_34
+      name: Cleaveknight_46
       rect:
         serializedVersion: 2
         x: 64
@@ -845,14 +1085,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3c45242af862b241a39ce708b438c6e
-      internalID: 1429354044
+      spriteID: 4cb8c5fa60e5cc84d825113bc5bb90cb
+      internalID: -1922445625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_35
+      name: Cleaveknight_47
       rect:
         serializedVersion: 2
         x: 96
@@ -866,14 +1106,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 770a1902109663a448169331491587fa
-      internalID: -756217766
+      spriteID: e2cbc5a97615daf4487b69a9ec035f43
+      internalID: 1554371947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_36
+      name: Cleaveknight_48
       rect:
         serializedVersion: 2
         x: 128
@@ -887,14 +1127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f62af48a6ddc8904ebcb687a5b6ae502
-      internalID: -1869365706
+      spriteID: dc3578df18019154cad258efcbd2204e
+      internalID: 693548072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_37
+      name: Cleaveknight_49
       rect:
         serializedVersion: 2
         x: 160
@@ -908,14 +1148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b57b67f559139be499d4ae9f3e6ecccd
-      internalID: 2116647100
+      spriteID: c0257a436dbb9c04cafec47342bd92e6
+      internalID: 136363954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_38
+      name: Cleaveknight_50
       rect:
         serializedVersion: 2
         x: 0
@@ -929,14 +1169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50bede2da231afe4680f4b3d4eca44d2
-      internalID: 1075736241
+      spriteID: 8a5bcf1325d71b34d92cf624dce8749d
+      internalID: 358988558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_39
+      name: Cleaveknight_51
       rect:
         serializedVersion: 2
         x: 32
@@ -950,14 +1190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e736e13c9cf14b4fa217f7e4e049b83
-      internalID: 698460799
+      spriteID: 52091fa0c5e7fa34ca9d82a994bb5a98
+      internalID: -250414728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_40
+      name: Cleaveknight_52
       rect:
         serializedVersion: 2
         x: 64
@@ -971,14 +1211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0040dd5fa180e742a4bd2e9e982af59
-      internalID: -1828303579
+      spriteID: 10ab31d5c63f1a444824d3a61a043738
+      internalID: 1212082292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_41
+      name: Cleaveknight_53
       rect:
         serializedVersion: 2
         x: 96
@@ -992,14 +1232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdbb9c82852e31447810e4266b59b3cc
-      internalID: -514565071
+      spriteID: d1473a020257eaa40a3added4ee9d468
+      internalID: -1193542267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_42
+      name: Cleaveknight_54
       rect:
         serializedVersion: 2
         x: 128
@@ -1013,14 +1253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df54d131883479849b2c8a145b2a777a
-      internalID: -758001439
+      spriteID: e9568c63f7f25aa41b48c87b6fa44e85
+      internalID: -1771390478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_43
+      name: Cleaveknight_55
       rect:
         serializedVersion: 2
         x: 160
@@ -1034,14 +1274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eba5626a6de54204092376c7f2963597
-      internalID: -2094239857
+      spriteID: fe548042eacf8d948a3f4292a6a067ec
+      internalID: -754477465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_44
+      name: Cleaveknight_56
       rect:
         serializedVersion: 2
         x: 192
@@ -1055,14 +1295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d4bc38e5adc4024f99b93398a301917
-      internalID: 1024457992
+      spriteID: 8b7f1b9bf738f9345b3d08b8a8f95e62
+      internalID: 1704986876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_45
+      name: Cleaveknight_57
       rect:
         serializedVersion: 2
         x: 0
@@ -1076,14 +1316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: defb55c07ec4f574cae7d3917f75f630
-      internalID: -1926846459
+      spriteID: ecedf9d19ed724747bf187e9c308e60b
+      internalID: 229283048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_46
+      name: Cleaveknight_58
       rect:
         serializedVersion: 2
         x: 32
@@ -1097,14 +1337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 631b41ee9b660744cb3a1c1a267daefa
-      internalID: 1376311769
+      spriteID: f177d91f2ff43e64ba443201903589c1
+      internalID: 2021880711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_47
+      name: Cleaveknight_59
       rect:
         serializedVersion: 2
         x: 64
@@ -1118,14 +1358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b16d6a002964d441b6ce1458d04383b
-      internalID: 562543012
+      spriteID: 9a96682b973bd0c43a7794e89ab3e9d9
+      internalID: 316615290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_48
+      name: Cleaveknight_60
       rect:
         serializedVersion: 2
         x: 96
@@ -1139,14 +1379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90d9a000d44031244bdff3c707e1f6b9
-      internalID: -1033883252
+      spriteID: 58bb852131a68cd4d9ea098fcddc12d0
+      internalID: -515698153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_49
+      name: Cleaveknight_61
       rect:
         serializedVersion: 2
         x: 128
@@ -1160,14 +1400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 899c2a7a88d20fc418cd64457586c222
-      internalID: -453496598
+      spriteID: 7257861db86a192418adda3443b38ad5
+      internalID: -75879351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cleaveknight_50
+      name: Cleaveknight_62
       rect:
         serializedVersion: 2
         x: 160
@@ -1181,8 +1421,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29071240bbd9d18438944570ecd8e3a5
-      internalID: 1429530312
+      spriteID: 34c5af905e7feda4eaeb873a6396745f
+      internalID: -686045934
       vertices: []
       indices: 
       edges: []
@@ -1198,57 +1438,69 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cleaveknight_0: 1481866453
-      Cleaveknight_1: -1742584142
-      Cleaveknight_10: -1219773078
-      Cleaveknight_11: -2113333888
-      Cleaveknight_12: -1133074716
-      Cleaveknight_13: -1098756691
-      Cleaveknight_14: 1128154648
-      Cleaveknight_15: -827997678
-      Cleaveknight_16: -1528432470
-      Cleaveknight_17: 463919405
-      Cleaveknight_18: 2052995912
-      Cleaveknight_19: -191618085
-      Cleaveknight_2: 1118351260
-      Cleaveknight_20: -1306667276
-      Cleaveknight_21: 1512203147
-      Cleaveknight_22: 1979853151
-      Cleaveknight_23: 891262914
-      Cleaveknight_24: 1012218269
-      Cleaveknight_25: 1175265244
-      Cleaveknight_26: 1787604754
-      Cleaveknight_27: 42062335
-      Cleaveknight_28: 501028193
-      Cleaveknight_29: -2043121773
-      Cleaveknight_3: 495846023
-      Cleaveknight_30: 592970968
-      Cleaveknight_31: -185611725
-      Cleaveknight_32: -135341887
-      Cleaveknight_33: -125451332
-      Cleaveknight_34: 1429354044
-      Cleaveknight_35: -756217766
-      Cleaveknight_36: -1869365706
-      Cleaveknight_37: 2116647100
-      Cleaveknight_38: 1075736241
-      Cleaveknight_39: 698460799
-      Cleaveknight_4: -281960610
-      Cleaveknight_40: -1828303579
-      Cleaveknight_41: -514565071
-      Cleaveknight_42: -758001439
-      Cleaveknight_43: -2094239857
-      Cleaveknight_44: 1024457992
-      Cleaveknight_45: -1926846459
-      Cleaveknight_46: 1376311769
-      Cleaveknight_47: 562543012
-      Cleaveknight_48: -1033883252
-      Cleaveknight_49: -453496598
-      Cleaveknight_5: 205736391
-      Cleaveknight_50: 1429530312
-      Cleaveknight_6: -210684484
-      Cleaveknight_7: 1735527207
-      Cleaveknight_8: 1218668953
-      Cleaveknight_9: -2055379092
+      Cleaveknight_0: 711234637
+      Cleaveknight_1: 1851582297
+      Cleaveknight_10: 1975277976
+      Cleaveknight_11: -194685021
+      Cleaveknight_12: -664029618
+      Cleaveknight_13: 1571887491
+      Cleaveknight_14: 1328196650
+      Cleaveknight_15: 1742939397
+      Cleaveknight_16: -717149383
+      Cleaveknight_17: 308707939
+      Cleaveknight_18: 1927484991
+      Cleaveknight_19: -1409144108
+      Cleaveknight_2: 1090367786
+      Cleaveknight_20: 656213480
+      Cleaveknight_21: -1520084974
+      Cleaveknight_22: 882745463
+      Cleaveknight_23: -691324392
+      Cleaveknight_24: 1083952575
+      Cleaveknight_25: 445544808
+      Cleaveknight_26: 2124614161
+      Cleaveknight_27: -896628289
+      Cleaveknight_28: 866804219
+      Cleaveknight_29: 174492083
+      Cleaveknight_3: -1142472286
+      Cleaveknight_30: -1579050256
+      Cleaveknight_31: 1279824005
+      Cleaveknight_32: -1222270506
+      Cleaveknight_33: -2056989723
+      Cleaveknight_34: -1263340124
+      Cleaveknight_35: 941947990
+      Cleaveknight_36: -918574665
+      Cleaveknight_37: 1776616215
+      Cleaveknight_38: -1540196554
+      Cleaveknight_39: 1704062137
+      Cleaveknight_4: 1627444674
+      Cleaveknight_40: 2143015824
+      Cleaveknight_41: 256650436
+      Cleaveknight_42: 1738744529
+      Cleaveknight_43: -852677869
+      Cleaveknight_44: 1491885738
+      Cleaveknight_45: -493847368
+      Cleaveknight_46: -1922445625
+      Cleaveknight_47: 1554371947
+      Cleaveknight_48: 693548072
+      Cleaveknight_49: 136363954
+      Cleaveknight_5: 1547258257
+      Cleaveknight_50: 358988558
+      Cleaveknight_51: -250414728
+      Cleaveknight_52: 1212082292
+      Cleaveknight_53: -1193542267
+      Cleaveknight_54: -1771390478
+      Cleaveknight_55: -754477465
+      Cleaveknight_56: 1704986876
+      Cleaveknight_57: 229283048
+      Cleaveknight_58: 2021880711
+      Cleaveknight_59: 316615290
+      Cleaveknight_6: 744809699
+      Cleaveknight_60: -515698153
+      Cleaveknight_61: -75879351
+      Cleaveknight_62: -686045934
+      Cleaveknight_7: -391930406
+      Cleaveknight_8: -2083396343
+      Cleaveknight_9: -1739320062
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

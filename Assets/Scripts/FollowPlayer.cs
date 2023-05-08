@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
+  
     public float moveSpeed = 0.25f; 
     public float followRadius = 0.25f; 
     private Transform player;
-    private Rigidbody2D rb; 
-   
+    private Rigidbody2D rb;
+    
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform; 

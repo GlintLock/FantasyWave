@@ -5,33 +5,84 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public enum PlayerStates {
+        IDLE,
+
+        WALK,
+
+        ATTACK
+    }
+    PlayerStates CurrentState
+    {
+        set
+        {
+            if (p_stateLock == false)
+            {
+                p_currentState = value;
+
+                switch (p_currentState)
+                {
+                    case PlayerStates.IDLE:
+                        p_animator.Play("IDLE");
+                        p_canMove = true;
+                        break;
+                    case PlayerStates.WALK:
+                        p_animator.Play("WALK");
+                        p_canMove = true;
+                        break;
+                    case PlayerStates.ATTACK:
+                        p_animator.Play("ATTACK");
+                        p_stateLock = true;
+                        p_canMove = false;
+                        break;
+                }
+            }
+            
+        }
+    }
     public float speed = 5f;
-    Vector2 m_moveInput = Vector2.zero;
+    Vector2 p_moveInput = Vector2.zero;
     private Rigidbody2D rb;
-    Animator m_animator;
-    SpriteRenderer m_spriteRenderer;
-
-
+    Animator p_animator;
+    SpriteRenderer p_spriteRenderer;
+    PlayerStates p_currentState;
+    bool p_stateLock = false;
+    bool p_canMove = true;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        m_animator = GetComponent<Animator>();
+        p_animator = GetComponent<Animator>();
+        p_spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void FixedUpdate()
     {
-        rb.velocity = m_moveInput * speed;
+        rb.velocity = p_moveInput * speed;
     }
 
-    private void OnMove(InputValue value)
+   void OnMove(InputValue value)
     {
-        m_moveInput = value.Get<Vector2>();
+        p_moveInput = value.Get<Vector2>();
 
-        if(m_moveInput != Vector2.zero)
+        if(p_canMove && p_moveInput != Vector2.zero)
         {
-            m_animator.SetFloat("xMove", m_moveInput.x);
-            m_animator.SetFloat("yMove", m_moveInput.y);
+            CurrentState = PlayerStates.WALK;
+            p_animator.SetFloat("xMove", p_moveInput.x);
+            p_animator.SetFloat("yMove", p_moveInput.y);
+
+        } else
+        {
+            CurrentState = PlayerStates.IDLE;
         }
+    }
+    void OnFire()
+    {
+        CurrentState = PlayerStates.ATTACK;
+    }
+    void OnAttackEnd()
+    {
+        p_stateLock = false;
+        CurrentState = PlayerStates.IDLE;
     }
     
 }
