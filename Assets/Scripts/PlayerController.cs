@@ -50,9 +50,15 @@ public class PlayerController : MonoBehaviour
     bool p_canMove = true;
     void Start()
     {
+        transform.position = new Vector3(0, 0, 0);
         rb = GetComponent<Rigidbody2D>();
         p_animator = GetComponent<Animator>();
         p_spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    void Update()
+    {
+  
     }
 
     void FixedUpdate()

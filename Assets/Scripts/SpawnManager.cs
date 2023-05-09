@@ -17,13 +17,7 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyCount = GameObject.FindObjectsOfType<FollowPlayer>().Length;
-        if (enemyCount == 0)
-        {
-            waveNum++;
-            SpawnEnemyWave(1);
-        } 
-
+        Spawner();
     }
     private Vector2 SpawnEnemy()
     {
@@ -35,8 +29,18 @@ public class SpawnManager : MonoBehaviour
     void SpawnEnemyWave(int numEnemies)
     {
         for (int i = 0; i < numEnemies; i++)
-            {
+        {
             Instantiate(enemyPrefab, SpawnEnemy(), enemyPrefab.transform.rotation);
         }
+    }
+    
+    void Spawner()
+    {
+        enemyCount = GameObject.FindObjectsOfType<Enemy>().Length;
+        if (enemyCount == 0)
+        {         
+         waveNum++;
+         SpawnEnemyWave(waveNum);                   
+        } 
     }
 }
