@@ -5,14 +5,11 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public enum PlayerStates {
-        IDLE,
-
-        WALK,
-
-        ATTACK
+    public enum PlayerStates 
+    {
+        IDLE, WALK, ATTACK
     }
-    PlayerStates CurrentState
+    PlayerStates PresentState
     {
         set
         {
@@ -48,6 +45,7 @@ public class PlayerController : MonoBehaviour
     PlayerStates p_currentState;
     bool p_stateLock = false;
     bool p_canMove = true;
+    
     void Start()
     {
         transform.position = new Vector3(0, 0, 0);
@@ -61,7 +59,7 @@ public class PlayerController : MonoBehaviour
   
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         rb.velocity = p_moveInput * speed;
     }
@@ -72,23 +70,25 @@ public class PlayerController : MonoBehaviour
 
         if(p_canMove && p_moveInput != Vector2.zero)
         {
-            CurrentState = PlayerStates.WALK;
+            PresentState = PlayerStates.WALK;
             p_animator.SetFloat("xMove", p_moveInput.x);
             p_animator.SetFloat("yMove", p_moveInput.y);
 
+            
         } else
         {
-            CurrentState = PlayerStates.IDLE;
+            PresentState = PlayerStates.IDLE;
         }
     }
+
     void OnFire()
     {
-        CurrentState = PlayerStates.ATTACK;
+        PresentState = PlayerStates.ATTACK;
     }
     void OnAttackEnd()
     {
         p_stateLock = false;
-        CurrentState = PlayerStates.IDLE;
+        p_canMove = true;
+        PresentState = PlayerStates.IDLE;
     }
-    
 }

@@ -2417,6 +2417,9 @@ MonoBehaviour:
   enemyPrefab: {fileID: 3781363414907398229, guid: 4a4b684cfa14c974c93dcd312de10055, type: 3}
   waveNum: 1
   enemyCount: 0
+  spawnDelay: 0
+  waveWait: 0
+  waveSpawningOn: 0
 --- !u!4 &992757505
 Transform:
   m_ObjectHideFlags: 0
@@ -2795,6 +2798,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3884637249456438393, guid: 58176f18c0bbede46af56b096b40d1f2, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4017444053526238065, guid: 58176f18c0bbede46af56b096b40d1f2, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2892,6 +2899,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5377650213241854429, guid: 58176f18c0bbede46af56b096b40d1f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377650213241854429, guid: 58176f18c0bbede46af56b096b40d1f2, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
@@ -2961,7 +2972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6418872311520528244, guid: 58176f18c0bbede46af56b096b40d1f2, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7669601750107419351, guid: 58176f18c0bbede46af56b096b40d1f2, type: 3}
       propertyPath: m_IsActive

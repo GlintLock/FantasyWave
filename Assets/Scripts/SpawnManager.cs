@@ -8,10 +8,13 @@ public class SpawnManager : MonoBehaviour
     private float spawnRange = 0.75f;
     public int waveNum = 1;
     public int enemyCount;
+    public float spawnDelay;
+    public float waveWait;
+    public bool waveSpawningOn;
     // Start is called before the first frame update
     void Start()
     {
-        SpawnEnemyWave(waveNum);
+        StartCoroutine(SpawnEnemyWave(waveNum));
     }
 
     // Update is called once per frame
@@ -26,21 +29,26 @@ public class SpawnManager : MonoBehaviour
         Vector2 randomPos = new Vector2(spawnPosX, spawnPosY);
         return randomPos;
     }
-    void SpawnEnemyWave(int numEnemies)
-    {
-        for (int i = 0; i < numEnemies; i++)
-        {
-            Instantiate(enemyPrefab, SpawnEnemy(), enemyPrefab.transform.rotation);
-        }
-    }
-    
     void Spawner()
     {
         enemyCount = GameObject.FindObjectsOfType<Enemy>().Length;
-        if (enemyCount == 0)
-        {         
-         waveNum++;
-         SpawnEnemyWave(waveNum);                   
-        } 
+        if (enemyCount == 0 && !waveSpawningOn)
+        {
+            waveNum++;
+            StartCoroutine(SpawnEnemyWave(waveNum));
+        }
     }
+    IEnumerator SpawnEnemyWave(int numEnemies)
+    {
+        waveSpawningOn = true;
+        yield return new WaitForSeconds(3);
+        for (int i = 0; i < numEnemies; i++)
+        {
+            Instantiate(enemyPrefab, SpawnEnemy(), enemyPrefab.transform.rotation);
+   
+        }
+        waveSpawningOn = false;
+    }
+    
+    
 }
