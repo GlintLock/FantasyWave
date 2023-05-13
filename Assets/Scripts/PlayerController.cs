@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    //set the three states for the Player, and which animations play with each state
     public enum PlayerStates 
     {
         IDLE, WALK, ATTACK
@@ -13,66 +14,73 @@ public class PlayerController : MonoBehaviour
     {
         set
         {
-            if (p_stateLock == false)
+            if (!isLocked)
             {
-                p_currentState = value;
+                liveState = value;
 
-                switch (p_currentState)
+                switch (liveState)
                 {
                     case PlayerStates.IDLE:
-                        p_animator.Play("IDLE");
-                        p_canMove = true;
+                        playerAnimator.Play("IDLE");                        
+                        canMove = true;
                         break;
                     case PlayerStates.WALK:
-                        p_animator.Play("WALK");
-                        p_canMove = true;
+                        playerAnimator.Play("WALK");                       
+                        canMove = true;
                         break;
                     case PlayerStates.ATTACK:
-                        p_animator.Play("ATTACK");
-                        p_stateLock = true;
-                        p_canMove = false;
+                        playerAnimator.Play("ATTACK");
+                        isLocked = true;
+                        canMove = false;                                             
                         break;
                 }
             }
             
         }
     }
+    public GameObject swordHitBox;
+    Collider2D bladeCollide;
     public float speed = 5f;
-    Vector2 p_moveInput = Vector2.zero;
+    Vector2 playerMoveInput = Vector2.zero;
     private Rigidbody2D rb;
-    Animator p_animator;
-    SpriteRenderer p_spriteRenderer;
-    PlayerStates p_currentState;
-    bool p_stateLock = false;
-    bool p_canMove = true;
+    Animator playerAnimator;
+    SpriteRenderer playerSpriteRenderer;
+    PlayerStates liveState;
+    bool isLocked = false;
+    bool canMove = true;
     
     void Start()
     {
+        //have p;ayer start at 0, 0 when the game starts
         transform.position = new Vector3(0, 0, 0);
+        
         rb = GetComponent<Rigidbody2D>();
-        p_animator = GetComponent<Animator>();
-        p_spriteRenderer = GetComponent<SpriteRenderer>();
+        playerAnimator = GetComponent<Animator>();
+        playerSpriteRenderer = GetComponent<SpriteRenderer>();
+        bladeCollide = swordHitBox.GetComponent<Collider2D>();
     }
 
     void Update()
-    {
-  
+    {        
+
     }
 
     private void FixedUpdate()
     {
-        rb.velocity = p_moveInput * speed;
+        //have the player move with the Input System directionals
+        rb.velocity = playerMoveInput * speed;        
     }
 
+    //set the direction the player faces when moving
    void OnMove(InputValue value)
     {
-        p_moveInput = value.Get<Vector2>();
+        playerMoveInput = value.Get<Vector2>();
 
-        if(p_canMove && p_moveInput != Vector2.zero)
+        if(canMove && playerMoveInput != Vector2.zero)
         {
             PresentState = PlayerStates.WALK;
-            p_animator.SetFloat("xMove", p_moveInput.x);
-            p_animator.SetFloat("yMove", p_moveInput.y);
+            playerAnimator.SetFloat("xMove", playerMoveInput.x);
+            playerAnimator.SetFloat("yMove", playerMoveInput.y);
 
             
         } else
@@ -80,15 +88,19 @@ public class PlayerController : MonoBehaviour
             PresentState = PlayerStates.IDLE;
         }
     }
-
+    
+    //set attack animation when pressing the Fire button
     void OnFire()
     {
-        PresentState = PlayerStates.ATTACK;
+        PresentState = PlayerStates.ATTACK;        
     }
+
+    //
     void OnAttackEnd()
     {
-        p_stateLock = false;
-        p_canMove = true;
+        isLocked = false;
+        canMove = true;
         PresentState = PlayerStates.IDLE;
     }
+    
 }

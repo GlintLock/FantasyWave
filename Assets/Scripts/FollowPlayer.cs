@@ -19,7 +19,7 @@ public class FollowPlayer : MonoBehaviour
 
     void Update()
     {
-        //have the enemy ccalculate the distance from them to the player
+        //have the enemy calculate the distance from them to the player
         //then seek them out when they are in range
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
         

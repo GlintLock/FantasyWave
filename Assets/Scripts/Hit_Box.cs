@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Hit_Box : MonoBehaviour
 {
+    public float damage = 1f;
+    public Collider2D swordCollider;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        swordCollider.GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
@@ -16,11 +19,9 @@ public class Hit_Box : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        if (collision.gameObject.TryGetComponent<Enemy>(out Enemy enemyComponent))
-        {
-            enemyComponent.TakeDmg(1);
-        }
-    }   
+        col.collider.SendMessage("OnHit", damage);
+    }
+  
 }

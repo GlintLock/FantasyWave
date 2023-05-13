@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6418872311520528244}
   - component: {fileID: 3447095584950075548}
   - component: {fileID: 4465508753268564577}
-  - component: {fileID: 6407556732348353991}
   - component: {fileID: 4984660393311247257}
   - component: {fileID: 8981548546305295351}
   m_Layer: 0
@@ -100,19 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7af8a96b6e4b474ca8ee4909677e810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6407556732348353991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3884637249456438393}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 741bb5df0ce8cf54cb818e613504bc09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dmg: 1
+  damage: 1
   swordCollider: {fileID: 4984660393311247257}
 --- !u!61 &4984660393311247257
 BoxCollider2D:
@@ -262,6 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fb650b83034d504887a497f68631bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  swordHitBox: {fileID: 0}
   speed: 0.625
 --- !u!50 &5377650213241854369
 Rigidbody2D:
