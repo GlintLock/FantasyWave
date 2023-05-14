@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 94b086112859ffb4e8b3b6fc0c2df600
+guid: 288768affb9747a4ba8085a92a65a2f4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: purpslimehit_0
+      name: knightIdlefix_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,41 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b4b360c5a566d94cb2b3320775c25de
-      internalID: -1306210652
+      spriteID: ee01a73ddacf2f74ba79a47cd709f65b
+      internalID: -1061856455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpslimehit_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26e100c4b81b63040a3f7a1fae58c7c1
-      internalID: 789261971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: purpslimehit_2
+      name: knightIdlefix_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02940ee0b0df17c488c2995267733af4
-      internalID: 837894541
+      spriteID: a6fcbd1447206714eb72e1347b132a08
+      internalID: 1209728407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: purpslimehit_3
+      name: knightIdlefix_2
       rect:
         serializedVersion: 2
-        x: 48
+        x: 64
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +161,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f276c9d6fd3433d4db562f658301215f
-      internalID: -108545467
+      spriteID: f6dfebe516404874e97bf9eea286e3b0
+      internalID: 888392670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightIdlefix_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9ab32ee9e996d408269d5069362f82
+      internalID: 609328907
       vertices: []
       indices: 
       edges: []
@@ -199,10 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      purpslimehit_0: -1306210652
-      purpslimehit_1: 789261971
-      purpslimehit_2: 837894541
-      purpslimehit_3: -108545467
+      knightIdlefix_0: -1061856455
+      knightIdlefix_1: 1209728407
+      knightIdlefix_2: 888392670
+      knightIdlefix_3: 609328907
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

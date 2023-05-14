@@ -19,9 +19,9 @@ public class Hit_Box : MonoBehaviour
     {
         
     }
-    void OnCollisionEnter2D(Collision2D col)
+    void OnCollisionEnter2D(Collision2D collider)
     {
-        col.collider.SendMessage("OnHit", damage);
+        collider.collider.SendMessage("OnHit", damage);
     }
   
 }

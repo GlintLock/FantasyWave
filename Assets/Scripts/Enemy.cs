@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+   
     //Set the health of the slime and what anim ations play when that value goes below max health
     Rigidbody2D slime_rb;
     bool Alive = true;
@@ -44,7 +45,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SlimeAttack();
+        
     }
     //Deal damage to the slime when the player hits it
     void OnHit(float damage)
