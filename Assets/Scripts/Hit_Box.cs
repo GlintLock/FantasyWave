@@ -12,6 +12,7 @@ public class Hit_Box : MonoBehaviour
     void Start()
     {
         swordCollider.GetComponent<Collider2D>();
+        
     }
 
     // Update is called once per frame
@@ -23,5 +24,6 @@ public class Hit_Box : MonoBehaviour
     {
         collider.collider.SendMessage("OnHit", damage);
     }
-  
+    
+
 }

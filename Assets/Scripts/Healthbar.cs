@@ -5,37 +5,27 @@ using UnityEngine.UI;
 
 public class Healthbar : MonoBehaviour
 {
-    public Text healthPointText;
-    public Image healthBar;
-    float health, maxhealth = 100;
-    public Image[] healthPoints;
-    float fillSpeed;
-
+    public Image playerHealthImage;
+    public PlayerController player;
+    public float healthPoints, maxHealthPoints = 100;
+    public float damagePoints = 10;
     // Start is called before the first frame update
     void Start()
     {
-        health = maxhealth;
+        healthPoints = maxHealthPoints;
     }
-
     // Update is called once per frame
     void Update()
     {
-        healthPointText.text = "Health: " + health + "%";
-        if (health > maxhealth) health = maxhealth;
-
-        fillSpeed = 3f * Time.deltaTime;
+        playerHealthImage.fillAmount = Mathf.Clamp(healthPoints / maxHealthPoints, 0, 1f);
     }
-    void HealthFill()
+    
+    void OnPlayerHit()
     {
-        healthBar.fillAmount = Mathf.Lerp(healthBar.fillAmount, (health / maxhealth), fillSpeed;
-    }
-    bool DisplayHealthPoint(float health, int pointNumber)
-    {
-        return ((pointNumber * 10) >= health);
-    }
-    public void Heal(float healingpoints)
-    {
-        if (health < maxhealth)
-            health += healingpoints;
+        healthPoints -= damagePoints;
+        if (healthPoints <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -48,12 +48,14 @@ public class PlayerController : MonoBehaviour
     PlayerStates liveState;
     bool isLocked = false;
     bool canMove = true;
-    
+   
+
     void Start()
     {
         //have p;ayer start at 0, 0 when the game starts
         transform.position = new Vector3(0, 0, 0);
         
+            
         rb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
@@ -103,4 +105,6 @@ public class PlayerController : MonoBehaviour
         PresentState = PlayerStates.IDLE;
     }
     
+    
+
 }
