@@ -9,6 +9,9 @@ public class Healthbar : MonoBehaviour
     public PlayerController player;
     public float healthPoints, maxHealthPoints = 100;
     public float damagePoints = 10;
+    public GameManager GameManager;
+    public Sprite healthFrame;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -23,9 +26,10 @@ public class Healthbar : MonoBehaviour
     void OnPlayerHit()
     {
         healthPoints -= damagePoints;
-        if (healthPoints <= 0)
+        if (healthPoints == 0)
         {
-            Destroy(gameObject);
+            Destroy(gameObject, 0.01f);            
+            GameManager.GameOver();
         }
     }
 }

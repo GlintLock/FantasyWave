@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: GameOver
+    uniqueID: 706619607
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: GameHud
+    uniqueID: 1247397579
     locked: 0

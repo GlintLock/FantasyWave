@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 5377650213241854369}
   - component: {fileID: -4101701852822055873}
   - component: {fileID: 6594877767275984373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5377650213241854429}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -2.6, z: 0}
+  m_LocalPosition: {x: -5, y: -2.6, z: -2.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -227,7 +227,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -664029618, guid: e4df5dbac42f64c4d80aff027ab071ce, type: 3}
+  m_Sprite: {fileID: 711234637, guid: e4df5dbac42f64c4d80aff027ab071ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -250,11 +250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fb650b83034d504887a497f68631bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swordHitBox: {fileID: 0}
+  swordHitBox: {fileID: 3884637249456438393}
   speed: 0.625
-  healthPoints: 0
-  maxHealthPoints: 100
-  damagePoints: 10
 --- !u!114 &335629207743890007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,6 +266,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealthImage: {fileID: 0}
   player: {fileID: 5377650213241854430}
+  healthPoints: 0
+  maxHealthPoints: 100
+  damagePoints: 10
+  GameManager: {fileID: 0}
+  healthFrame: {fileID: 21300000, guid: e961b7081183aab4d95d955ac05d4007, type: 3}
 --- !u!50 &5377650213241854369
 Rigidbody2D:
   serializedVersion: 4

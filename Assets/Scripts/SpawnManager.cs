@@ -11,6 +11,7 @@ public class SpawnManager : MonoBehaviour
     public float spawnDelay;
     public float waveWait;
     public bool waveSpawningOn;
+    public GameManager gameMan;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,12 +32,20 @@ public class SpawnManager : MonoBehaviour
     }
     void Spawner()
     {
-        enemyCount = GameObject.FindObjectsOfType<Enemy>().Length;
-        if (enemyCount == 0 && !waveSpawningOn)
+        while(gameMan.isGameOn == true)
         {
-            waveNum++;
-            StartCoroutine(SpawnEnemyWave(waveNum));
+            enemyCount = GameObject.FindObjectsOfType<Enemy>().Length;
+            if (enemyCount == 0 && !waveSpawningOn)
+            {
+                waveNum++;
+                StartCoroutine(SpawnEnemyWave(waveNum));
+            }
+            else
+            {
+               GetComponent<SpawnManager>().enabled = false;
+            }
         }
+        
     }
     IEnumerator SpawnEnemyWave(int numEnemies)
     {
@@ -49,6 +58,7 @@ public class SpawnManager : MonoBehaviour
         }
         waveSpawningOn = false;
     }
+
     
     
 }
