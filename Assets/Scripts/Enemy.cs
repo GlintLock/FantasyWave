@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour
     public float slimeHealthPoints = 3;
     Animator animator;
     public float attackRadius = 0.05f;
-    public GameManager gameManager;
+   
     // Start is called before the first frame update
     void Start()
     {   //set the animator component and make sure the "Alive" boolean is set when starting the game     

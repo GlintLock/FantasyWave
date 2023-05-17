@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Audio;
 
 public class PlayerController : MonoBehaviour
 {
@@ -41,6 +42,11 @@ public class PlayerController : MonoBehaviour
     public GameObject swordHitBox;
     Collider2D bladeCollide;
     public float speed = 5f;
+    public float onMoveSpeed;
+    public float dashSpeed;
+    public float dashLength = 0.5f, dashCool = 1f;
+    private float dashCount;
+    private float dashCoolCount;
     Vector2 playerMoveInput = Vector2.zero;
     private Rigidbody2D rb;
     Animator playerAnimator;
@@ -48,14 +54,11 @@ public class PlayerController : MonoBehaviour
     PlayerStates liveState;
     bool isLocked = false;
     bool canMove = true;
-   
-
     void Start()
     {
         //have p;ayer start at 0, 0 when the game starts
         transform.position = new Vector3(0, 0, 0);
-        
-            
+        onMoveSpeed = speed;
         rb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
@@ -63,16 +66,17 @@ public class PlayerController : MonoBehaviour
     }
 
     void Update()
-    {        
-
+    {
+        
     }
 
     private void FixedUpdate()
     {
         //have the player move with the Input System directionals
-        rb.velocity = playerMoveInput * speed;        
+        playerMoveInput.Normalize();
+        rb.velocity = playerMoveInput * onMoveSpeed;
+        
     }
-
     //set the direction the player faces when moving
    void OnMove(InputValue value)
     {
@@ -94,7 +98,8 @@ public class PlayerController : MonoBehaviour
     //set attack animation when pressing the Fire button
     void OnFire()
     {
-        PresentState = PlayerStates.ATTACK;        
+        PresentState = PlayerStates.ATTACK;
+        
     }
 
     //
@@ -104,7 +109,6 @@ public class PlayerController : MonoBehaviour
         canMove = true;
         PresentState = PlayerStates.IDLE;
     }
-    
     
 
 }

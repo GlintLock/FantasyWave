@@ -11,7 +11,7 @@ public class SpawnManager : MonoBehaviour
     public float spawnDelay;
     public float waveWait;
     public bool waveSpawningOn;
-    public GameManager gameMan;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +32,8 @@ public class SpawnManager : MonoBehaviour
     }
     void Spawner()
     {
-        while(gameMan.isGameOn == true)
+    
+
         {
             enemyCount = GameObject.FindObjectsOfType<Enemy>().Length;
             if (enemyCount == 0 && !waveSpawningOn)
@@ -40,10 +41,7 @@ public class SpawnManager : MonoBehaviour
                 waveNum++;
                 StartCoroutine(SpawnEnemyWave(waveNum));
             }
-            else
-            {
-               GetComponent<SpawnManager>().enabled = false;
-            }
+            
         }
         
     }
