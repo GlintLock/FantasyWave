@@ -13,6 +13,7 @@ public class Camera : MonoBehaviour
     }
 
     // Update is called once per frame
+    //Follow the payer around
     void Update()
     {
         transform.position = player.transform.position + offset;

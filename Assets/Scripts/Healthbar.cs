@@ -23,6 +23,7 @@ public class Healthbar : MonoBehaviour
         playerHealthImage.fillAmount = Mathf.Clamp(healthPoints / maxHealthPoints, 0, 1f);
     }
     
+    //remove health from healthbar and destroy player when health reaches zero
     void OnPlayerHit()
     {
         healthPoints -= damagePoints;
